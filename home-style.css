@@ -18,7 +18,6 @@
     }
    body{
       margin:0px;
-      min-height: calc(100vh - 211px -50px);
       background:#F6FBFF;
    }
    .header{
@@ -37,6 +36,9 @@
      flex: 4;
      text-align: middle;
      justify-content: space-between;
+   }
+   .main{
+   min-height: calc(100vh - 211px -50px);
    }
    .footer{
    text-align: center;
