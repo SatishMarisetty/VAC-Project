@@ -18,6 +18,7 @@
     }
    body{
       margin:0px;
+      min-height: calc(100vh - 211px -50px);
       background:#F6FBFF;
    }
    .header{
@@ -36,4 +37,10 @@
      flex: 4;
      text-align: middle;
      justify-content: space-between;
+   }
+   .footer{
+   text-align: center;
+   background-color: #1F2024;
+   color: white;
+   padding: 20px;
    }
